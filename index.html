@@ -23,6 +23,7 @@
             text-decoration: none;
             margin: 0 15px;
             font-weight: bold;
+            font-style: normal;
         }
 
         header nav a:hover {
@@ -33,7 +34,7 @@
             display: flex;
             align-items: center;
             padding: 50px;
-            background-color: #e0f2f1;
+            background-color: #004d40;
         }
 
         .profile-pic {
@@ -41,41 +42,46 @@
             max-width: 350px;
             height: auto;
             margin-right: 20px;
-            border-radius: 0; /* Ensure it is not round */
+            border-radius: 0;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
         }
 
         .hero-content {
             flex: 1;
-            text-align: left; /* Left-align the text */
+            text-align: left;
         }
 
         h1 {
-            color: #00796b;
+            color: white;
             font-size: 2.5em;
             margin: 0;
+            font-style: normal;
         }
 
         .title {
             font-size: 1.5em;
-            color: #004d40;
+            color: white;
             margin: 10px 0;
+            font-style: normal;
         }
 
-        .bio, .expertise, .current {
-            color: #004d40;
+        .bio, .core-expertise, .current {
+            color: white;
             line-height: 1.6;
             margin: 20px 0;
+            font-style: normal;
         }
 
-        .expertise {
+        .core-expertise {
             list-style: none;
             padding: 0;
             margin: 20px 0;
         }
 
-        .expertise li {
+        .core-expertise li {
             margin-bottom: 10px;
+            color: white;
+            font-style: normal;
         }
 
         .button {
@@ -86,6 +92,7 @@
             text-decoration: none;
             font-weight: bold;
             border-radius: 5px;
+            font-style: normal;
         }
 
         .button:hover {
@@ -97,6 +104,11 @@
             padding: 10px 0;
             background-color: #004d40;
             color: white;
+            font-style: normal;
+        }
+
+        strong {
+            font-style: normal;
         }
     </style>
 </head>
@@ -117,20 +129,21 @@
             <img src="images/your-photo.jpg" alt="MO Dehestani" class="profile-pic">
             <div class="hero-content">
                 <h1>MO DEHESTANI, PhD</h1>
-                <p class="title">Computational Biologist & Genomic Data Scientist</p>
+                <p class="title">Computational Biologist & Data Scientist</p>
                 <p class="bio">
-                    Computational biologist and genomic data scientist specializing in multimodal omics integration and machine learning for unraveling disease mechanisms. I leverage advanced computational techniques to bridge the gap between complex biological datasets and clinical outcomes, aiming to identify druggable targets and generate actionable insights.
+                    I am a <strong>computational biologist and genomic data scientist</strong> with a strong focus on <strong>multimodal omics integration</strong> and machine learning to uncover the molecular underpinnings of complex diseases. By leveraging my deep domain knowledge in disease molecular biology, advanced computational methods, and proficiency in programming, I strive to bridge the gap between intricate biological datasets and clinical outcomes, facilitating the identification of druggable targets and the generation of actionable insights. My core expertise spans: 
                 </p>
-                <ul class="expertise">
-                    <li>Single-cell omics & multiomics analysis</li>
-                    <li>Machine learning for predictive modeling</li>
-                    <li>Statistical genomics (exploratory GWAS & post-GWAS)</li>
-                    <li>Large-scale genomic analysis and cohort stratification by *omics data</li>
-                    <li>Co-supervising and leading research projects in stat. genomics and comp. biology</li>
-                    <li>Collaborating with cross-functional teams</li>
+                <ul class="core-expertise">
+                    <li>- Single-cell omics and multiomics analysis</li>
+                    <li>- Machine learning for predictive modeling</li>
+                    <li>- Statistical genomics (exploratory GWAS & causality-driven post-GWAS)</li>
+                    <li>- Large-scale genomic analysis and cohort stratification by *omics data</li>
+                    <li>- Data wrangling, cleaning, visualization, and application of FAIR principles</li>
+                    <li>- Co-supervising and leading research projects in statistical genomics and computational biology</li>
+                    <li>- Collaborating with cross-functional teams</li>
                 </ul>
                 <p class="current">
-                    Currently advancing the understanding of neurodegenerative diseases by uncovering novel insights through data-driven approaches at DZNE.
+                    Currently, I am advancing our understanding of <strong>neurodegenerative diseases</strong> as part of my work at the <strong>DZNE</strong> (German Center for Neurodegenerative Diseases), using data-driven approaches to generate novel insights into these challenging conditions.
                 </p>
                 <a href="contact.html" class="button">Contact Me</a>
             </div>
